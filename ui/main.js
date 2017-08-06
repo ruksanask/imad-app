@@ -1,4 +1,4 @@
-//counter
+///counter
 var button=document.getElementById('counter');
 button.onclick=function()
 {
