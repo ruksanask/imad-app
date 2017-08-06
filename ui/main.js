@@ -21,8 +21,9 @@ button.onclick=function()
     }
       }
       //not done yet
-};  
+}; 
+counter=counter+1
  // make a request
- request.open('GET','http://http://sanaskruksana69.imad.hasura-app.io/counter',true);
- request.send(null);
+// request.open('GET','http://http://sanaskruksana69.imad.hasura-app.io/counter',true);
+ //request.send(null);
 };
