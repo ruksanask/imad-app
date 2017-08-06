@@ -1,6 +1,6 @@
 //counter
 var button=document.getElementById('counter');
-button.onlick=function()
+button.onclick=function()
 {
     // create a request object
     
@@ -17,7 +17,7 @@ button.onlick=function()
     if(request.status===200){
         var counter=request.responseText;
          var span=document.getElementById('count');
-  span.innerHTML=counter.toString ();
+         span.innerHTML=counter.toString ();
     }
       }
       //not done yet
